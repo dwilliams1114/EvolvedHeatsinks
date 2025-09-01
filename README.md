@@ -7,7 +7,7 @@ Poster:<br>
 [Heat_Sink_Design_Poster.png](https://danielwilliams.tech/Heatsinks/Heat_Sink_Design_Poster.png)
 
 Example heat sinks produced by this project:<br>
-<video src="https://danielwilliams.tech/Heatsinks/Heatsinks.mp4" width="480" height="270" controls></video>
+https://github.com/user-attachments/assets/0e362672-3a6d-4648-a45c-4f25e4bdf182
 
 # Abstract
 
