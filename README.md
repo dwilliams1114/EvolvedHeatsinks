@@ -1,13 +1,13 @@
 This is my project for the 2020 Scalable Many Core Computing course.
 
 Final presentation:<br>
-[SMC2020f_Final_DanielWilliams_heatsink.pptx](https://danielwilliams.tech/Heatsinks/SMC2020f_Final_DanielWilliams_heatsink.pptx))
+[SMC2020f_Final_DanielWilliams_heatsink.pptx](https://danielwilliams.tech/Heatsinks/SMC2020f_Final_DanielWilliams_heatsink.pptx)
 
 Poster:<br>
-[Heat Sink Design Poster.png](https://danielwilliams.tech/Heatsinks/Heat_Sink_Design_Poster.png)
+[Heat_Sink_Design_Poster.png](https://danielwilliams.tech/Heatsinks/Heat_Sink_Design_Poster.png)
 
 Example heat sinks produced by this project:<br>
-https://danielwilliams.tech/Heatsinks/Heatsinks4.mp4
+https://danielwilliams.tech/Heatsinks/Heatsinks.mp4
 
 # Abstract
 
