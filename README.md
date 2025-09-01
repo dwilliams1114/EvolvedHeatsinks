@@ -1,24 +1,21 @@
 This is my project for the 2020 Scalable Many Core Computing course.
 
-Final presentation:
+Final presentation:<br>
+[SMC2020f_Final_DanielWilliams_heatsink.pptx](https://danielwilliams.tech/Heatsinks/SMC2020f_Final_DanielWilliams_heatsink.pptx))
 
-[SMC2020f_Final_DanielWilliams_heatsink.pptx](https://danielwilliams.tech/Heatsinks/SMC2020f)
+Poster:<br>
+[Heat Sink Design Poster.png](https://danielwilliams.tech/Heatsinks/Heat_Sink_Design_Poster.png)
 
-Poster:
-
-[Heat Sink Design Poster.png](https://danielwilliams.tech/Heatsinks/Heat_Sink_Design_Poster.png>)
-
-Example heat sinks produced by this project:
-
-<video src="https://danielwilliams.tech/Heatsinks/Heatsinks4.mp4" width="320" height="240" controls></video>
+Example heat sinks produced by this project:<br>
+https://danielwilliams.tech/Heatsinks/Heatsinks4.mp4
 
 # Abstract
 
-Heat sinks are typically designed by hand.  Recently, computational methods have been applied to optimize the shape of heat sinks to maximize their effectiveness.  However, these designs are typically impractical for real-world manufacturing.  In this paper, we describe an evolution-inspired method for automatically designing heat sinks within the constraints of common manufacturing processes. The resulting heat sink designs are presented.
+Heat sinks are typically designed by hand.  Recently, computational methods have been applied to optimize the shape of heat sinks to maximize their effectiveness.  However, these designs are often impractical for real-world manufacturing.  In this paper, we describe an evolution-inspired method for automatically designing heat sinks within the constraints of common manufacturing processes. The resulting heat sink designs are presented.
 
 # Introduction
 
-Heat sinks are typically designed by hand.  Recently, automated computational methods have been applied to optimize the geometry of heat sinks to maximize cooling effectiveness.  However, these designs typically have small features, overhangs, hollow portions, or other features rendering them impractical for real-world manufacturing.
+Heat sinks are typically designed by hand.  Recently, automated computational methods have been applied to optimize the geometry of heat sinks to maximize cooling effectiveness.  However, these designs often have small features, overhangs, hollow portions, or other features rendering them impractical for real-world manufacturing.
 
 This prompts us to design a similar heat sink optimization method, but constrained to realistic solutions for current mass manufacturing processes, such as extrusion or forging.  We propose an optimization technique that uses a greedy evolution algorithm, then use that algorithm to generate a number of high-performing heat sinks geometries that are subject to the constraints of common manufacturing processes.  Of those processes, we focus on extrusion and forging because they are relatively simple to model computationally.
 
@@ -26,7 +23,9 @@ This prompts us to design a similar heat sink optimization method, but constrain
 
 Designing an efficient heat sink is an optimization problem that may be solved using a form of gradient descent. Our objective function is the thermal performance of the heat sink.  We use a greedy evolutionary approach I shown below:
 
-![Heat Sink Optimization Process](https://danielwilliams.tech/Heatsinks/Heat_Sink_Optimization_Process.png)
+<p align="center">
+  <img src="https://danielwilliams.tech/Heatsinks/Heat_Sink_Optimization_Process.png" />
+</p>
 
 This method allows us to easily add or remove constraints for various manufacturing techniques without having to modify the optimization algorithm or objective function.
 
@@ -45,7 +44,7 @@ We could expect the resulting heat sink designs to be near optimal for passive c
 
 # Results
 
-The generated heat sinks generally outperform their human-designed counterparts by about 3%, while occupying the same space and material.  The heat sinks below were generated through 6700 evolution steps over 11 hours in a 643 simulation space.  These designs were constrained to a uniform cross section for the extrusion manufacturing process, but were simulated in three dimensions.
+The generated heat sinks generally outperform their human-designed counterparts by about 3%, while occupying the same space and material.  The heat sinks below were generated through 6700 evolution steps over 11 hours in a 64<sup>3</sup> simulation space.  These designs were constrained to a uniform cross section for the extrusion manufacturing process, but were simulated in three dimensions.
 
 <p float="left" align="middle">
   <img src="https://danielwilliams.tech/Heatsinks/Heatsink_Design_16.png" width="48%" />
